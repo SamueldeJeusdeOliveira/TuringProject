@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Turing - O Pai da Computação</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        header {
+            background: linear-gradient(45deg, #2c3e50, #3498db);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="40" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="80" r="1.5" fill="rgba(255,255,255,0.1)"/></svg>');
+            animation: float 20s infinite linear;
+        }
+
+        @keyframes float {
+            0% { transform: translateX(-100px); }
+            100% { transform: translateX(100px); }
+        }
+
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 1;
+        }
+
+        .subtitle {
+            font-size: 1.3em;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .hero-section {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 40px;
+            align-items: center;
+            margin-bottom: 50px;
+            padding: 30px;
+            background: linear-gradient(135deg, #f8f9ff 0%, #e8f2ff 100%);
+            border-radius: 15px;
+            border-left: 5px solid #3498db;
+        }
+
+        .hero-text {
+            font-size: 1.2em;
+            color: #2c3e50;
+        }
+
+        .portrait {
+            width: 300px;
+            height: 350px;
+            background: linear-gradient(45deg, #ddd, #bbb);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1em;
+            color: #666;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            border: 3px solid #3498db;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #e74c3c;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .section:nth-child(even) {
+            border-left-color: #f39c12;
+        }
+
+        .section:nth-child(3n) {
+            border-left-color: #27ae60;
+        }
+
+        h2 {
+            color: #2c3e50;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: linear-gradient(45deg, #3498db, #e74c3c);
+            border-radius: 2px;
+        }
+
+        .timeline {
+            display: grid;
+            gap: 20px;
+        }
+
+        .timeline-item {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #3498db;
+            transition: all 0.3s ease;
+        }
+
+        .timeline-item:hover {
+            background: #e8f4fd;
+            transform: translateX(10px);
+        }
+
+        .year {
+            font-weight: bold;
+            color: #3498db;
+            font-size: 1.2em;
+            min-width: 60px;
+        }
+
+        .achievements {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .achievement {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .achievement:hover {
+            transform: translateY(-10px) scale(1.05);
+        }
+
+        .achievement h3 {
+            font-size: 1.4em;
+            margin-bottom: 15px;
+        }
+
+        .quote {
+            background: #34495e;
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            font-style: italic;
+            font-size: 1.3em;
+            margin: 40px 0;
+            position: relative;
+        }
+
+        .quote::before {
+            content: '"';
+            font-size: 4em;
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            opacity: 0.3;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .hero-section {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .portrait {
+                width: 250px;
+                height: 280px;
+                margin: 0 auto;
+            }
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .achievements {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Alan Turing</h1>
+            <p class="subtitle">O Pai da Computação Moderna</p>
+        </header>
+
+        <div class="content">
+            <div class="hero-section">
+                <div class="hero-text">
+                    <p><strong>Alan Mathison Turing</strong> (1912-1954) foi um matemático, cientista da computação, lógico e criptoanalista britânico. Considerado um dos pais da ciência da computação e da inteligência artificial, suas contribuições revolucionárias moldaram o mundo moderno da tecnologia.</p>
+                </div>
+                <div class="portrait">
+                    Alan Turing<br>
+                    (1912-1954)<br><br>
+                    <em>Retrato do gênio<br>da computação</em>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Biografia</h2>
+                <p>Nascido em 23 de junho de 1912, em Maida Vale, Londres, Alan Turing demonstrou desde cedo uma mente brilhante para a matemática e as ciências. Educado em King's College, Cambridge, e posteriormente em Princeton, Turing desenvolveu teorias fundamentais que se tornariam a base da computação moderna.</p>
+                
+                <p>Durante a Segunda Guerra Mundial, trabalhou em Bletchley Park, onde foi fundamental para quebrar o código da máquina Enigma alemã, contribuindo significativamente para a vitória dos Aliados.</p>
+            </div>
+
+            <div class="section">
+                <h2>Principais Contribuições</h2>
+                <div class="achievements">
+                    <div class="achievement">
+                        <h3>🤖 Máquina de Turing</h3>
+                        <p>Conceito teórico que definiu os fundamentos da computação e algoritmos</p>
+                    </div>
+                    <div class="achievement">
+                        <h3>🧠 Inteligência Artificial</h3>
+                        <p>Criador do famoso "Teste de Turing" para avaliar inteligência em máquinas</p>
+                    </div>
+                    <div class="achievement">
+                        <h3>🔐 Criptografia</h3>
+                        <p>Quebrou o código Enigma, ajudando a encurtar a Segunda Guerra Mundial</p>
+                    </div>
+                    <div class="achievement">
+                        <h3>💻 Computação</h3>
+                        <p>Pioneiro no design de computadores eletrônicos modernos</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Cronologia</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="year">1912</div>
+                        <div>Nascimento em Londres, Inglaterra</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="year">1936</div>
+                        <div>Publica "On Computable Numbers", introduzindo a Máquina de Turing</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="year">1939-45</div>
+                        <div>Trabalha em Bletchley Park decifrando códigos alemães</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="year">1946</div>
+                        <div>Projeta o ACE (Automatic Computing Engine)</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="year">1950</div>
+                        <div>Publica "Computing Machinery and Intelligence" e propõe o Teste de Turing</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="year">1954</div>
+                        <div>Falecimento aos 41 anos em Wilmslow, Cheshire</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quote">
+                Às vezes é a pessoa que ninguém imagina que seja capaz de algo que faz aquilo que ninguém consegue imaginar.
+                <br><br><em>— Alan Turing</em>
+            </div>
+
+            <div class="section">
+                <h2>Legado</h2>
+                <p>O trabalho de Alan Turing continua a influenciar nossa vida cotidiana. Desde os computadores que usamos até os algoritmos de inteligência artificial que moldam nosso mundo digital, suas ideias permanecem fundamentais.</p>
+                
+                <p>Em sua honra, o prêmio mais prestigioso da ciência da computação é chamado de "Prêmio Turing", considerado o "Nobel da Computação". Sua vida e obra também inspiraram filmes, livros e peças teatrais, mantendo viva sua memória e contribuições para as gerações futuras.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 - Site dedicado à memória de Alan Turing</p>
+            <p>Uma homenagem ao gênio que mudou o mundo</p>
+        </footer>
+    </div>
+
+    <script>
+        // Animação suave ao rolar a página
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('.section');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+
+            sections.forEach(section => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(20px)';
+                section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(section);
+            });
+
+            // Efeito de hover nos achievements
+            const achievements = document.querySelectorAll('.achievement');
+            achievements.forEach(achievement => {
+                achievement.addEventListener('mouseenter', function() {
+                    this.style.background = 'linear-gradient(135deg, #764ba2 0%, #667eea 100%)';
+                });
+                
+                achievement.addEventListener('mouseleave', function() {
+                    this.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
