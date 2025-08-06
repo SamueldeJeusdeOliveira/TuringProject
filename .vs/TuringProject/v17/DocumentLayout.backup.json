@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Samuel\\Source\\Repos\\TuringProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Samuel\\Desktop\\Tuting-Site\\public\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Samuel\\Desktop\\Tuting-Site\\public\\game.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Samuel\\Desktop\\Tuting-Site\\public\\game.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Samuel\\Desktop\\Tuting-Site\\public\\criptografia.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Samuel\\Desktop\\Tuting-Site\\.firebase\\hosting.cHVibGlj.cache||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Samuel\\Desktop\\Tuting-Site\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Samuel\\Desktop\\Tuting-Site\\Novo(a) Documento de Texto.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Samuel\\Desktop\\Tuting-Site\\firebase.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Samuel\\Desktop\\Tuting-Site\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\public\\index.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Tuting-Site\\public\\index.html",
+              "ToolTip": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\public\\index.html",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\Tuting-Site\\public\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-06T04:15:25.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "game.js",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\public\\game.js",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Tuting-Site\\public\\game.js",
+              "ToolTip": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\public\\game.js",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\Tuting-Site\\public\\game.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-06T04:15:25.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "game.html",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\public\\game.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Tuting-Site\\public\\game.html",
+              "ToolTip": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\public\\game.html",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\Tuting-Site\\public\\game.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-06T04:15:25.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "criptografia.js",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\public\\criptografia.js",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Tuting-Site\\public\\criptografia.js",
+              "ToolTip": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\public\\criptografia.js",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\Tuting-Site\\public\\criptografia.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-06T04:15:24.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "hosting.cHVibGlj.cache",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\.firebase\\hosting.cHVibGlj.cache",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Tuting-Site\\.firebase\\hosting.cHVibGlj.cache",
+              "ToolTip": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\.firebase\\hosting.cHVibGlj.cache",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\Tuting-Site\\.firebase\\hosting.cHVibGlj.cache",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002368|",
+              "WhenOpened": "2025-08-06T04:15:24.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\style.css",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Tuting-Site\\style.css",
+              "ToolTip": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\style.css",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\Tuting-Site\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-06T04:15:24.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Novo(a) Documento de Texto.txt",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\Novo(a) Documento de Texto.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Tuting-Site\\Novo(a) Documento de Texto.txt",
+              "ToolTip": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\Novo(a) Documento de Texto.txt",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\Tuting-Site\\Novo(a) Documento de Texto.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-06T04:15:24.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "firebase.json",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\firebase.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Tuting-Site\\firebase.json",
+              "ToolTip": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\firebase.json",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\Tuting-Site\\firebase.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-06T04:15:24.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\.gitignore",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Tuting-Site\\.gitignore",
+              "ToolTip": "C:\\Users\\Samuel\\Desktop\\Tuting-Site\\.gitignore",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\Tuting-Site\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-06T04:15:24.127Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
